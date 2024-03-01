@@ -1,0 +1,101 @@
+:root {
+  --primary-color: #804b86c2;
+  --box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  --background: rgb(138, 113, 113);
+  --profile-color: #b592ce;
+  --socials-color: #9374a5a7;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+strong {
+  color: var(--primary-color);
+  font-family: "Madimi One", sans-serif;
+}
+.social-links,
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: "Titillium Web", sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  background: white;
+  margin: 5px;
+  transition: 0.3s;
+  justify-content: center;
+}
+#details {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  background: var(--background);
+}
+.profile {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  background: var(--profile-color);
+}
+.socials {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  background: var(--socials-color);
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: 80px;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
