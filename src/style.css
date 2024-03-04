@@ -14,8 +14,8 @@ h2 {
 
 .aboutme {
   display: flex;
-  justify-content: space-evenly;
-  padding: 50px;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 strong {
