@@ -99,3 +99,11 @@ strong {
 #github {
   fill: #333;
 }
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
